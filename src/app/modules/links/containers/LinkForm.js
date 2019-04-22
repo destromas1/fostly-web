@@ -47,13 +47,14 @@ class LinkForm extends Component {
               style={{ width: "555px" }}
               className="form-control"
               id="linkToShorten"
+              data-cy="urlToShorten"
               placeholder="write a link to shorten it"
               value={this.state.url}
               onChange={this.handleUrlChange}
             />
           </div>
 
-          <button type="submit" className="btn btn-primary">
+          <button type="submit" data-cy="submitShorten" className="btn btn-primary">
             <strong>Shorten</strong>
           </button>
         </form>
@@ -63,7 +64,7 @@ class LinkForm extends Component {
         {this.state.shortLink && (
           <div>
             <strong>{this.state.shortLink}</strong>
-            <button className="btn" onClick={this.copyToClipboard}>
+            <button data-cy="copyToClip" className="btn" onClick={this.copyToClipboard}>
               Copy URL
             </button>
           </div>
