@@ -10,7 +10,6 @@ import "./App.css";
 class App extends Component {
   render() {
     return (
-      <React.Fragment>
         <Provider store={store}>
           <HashRouter>
             <Switch>
@@ -20,7 +19,6 @@ class App extends Component {
             </Switch>
           </HashRouter>
         </Provider>
-      </React.Fragment>
     );
   }
 }

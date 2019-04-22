@@ -6,7 +6,7 @@ import ErrorBoundary from "../../../ErrorBoundary";
 class LinkPage extends Component {
   render() {
     return (
-      <div className="App">
+      <div id="links" className="App">
         <Header />
         <h1>Manage your links</h1>
         <ErrorBoundary>

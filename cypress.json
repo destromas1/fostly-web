@@ -1,1 +1,8 @@
-{}
+{
+  "env": {
+    "BACKEND_URL": "http://localhost:8888",
+    "FRONTEND_URL": "http://localhost:8889"
+  },
+  "viewportHeight": 768,
+  "viewportWidth": 1280
+}

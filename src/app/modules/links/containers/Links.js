@@ -32,7 +32,7 @@ class Links extends Component {
     const { links } = this.props;
 
     return (
-      <div className={listStyle}>
+      <div id="links" className={listStyle}>
         <table className="table table-striped">
           <thead>
             <tr>

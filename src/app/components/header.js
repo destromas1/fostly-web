@@ -26,6 +26,7 @@ class Header extends Component {
                   <NavLink
                     to="/"
                     exact
+                    data-cy="shorten-link"
                     activeClassName={activeStyle}
                   >
                     Home
@@ -35,6 +36,7 @@ class Header extends Component {
                   <NavLink
                     exact
                     to="/manage-urls"
+                    data-cy="manage-links"
                     activeClassName={activeStyle}
                   >
                     Manage URLs

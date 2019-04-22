@@ -5,7 +5,7 @@ import LinkForm from "../containers/LinkForm";
 class FormPage extends Component {
   render() {
     return (
-      <div className="App">
+      <div id="form" className="App">
         <Header />
         <div>
           <LinkForm />
